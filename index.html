@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Twitter</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/icon.png" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link href="./assets/css/main.css.map" />
+</head>
+
+<body>
+    <div class="container">
+        <aside class="menu">
+
+            <div class="icono_twitter">
+                <img src="assets/img/Twitter-Logo.png" alt="">
+            </div>
+            <div class="menu_principal_twitter">
+                <nav>
+                    <ul>
+                        <h1>
+                            <li>Inicio</li>
+                            <li>Explorar</li>
+                            <li>Notificaciones</li>
+                            <li>Mensajes</li>
+                            <li>Guardados</li>
+                            <li>Listas</li>
+                            <li>Perfil</li>
+                            <li>Más opciones</li>
+                        </h1>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="crear_tweet">
+                <button type="submit" class="crear_tweet_button">Agregar +</button>
+            </div>
+
+        </aside>
+
+        <main class="tweets">
+            <h1>Inicio</h1>
+
+            <form class="create_new" name="new">
+
+
+                <div class="foto">
+                    <img src="assets/img/baby-yoda-nombre_3x56.1280.jpg" alt="">
+                </div>
+
+                <div class="tweet_body">
+                    <textarea name="textarea" placeholder="¿Qué está pasando?"></textarea>
+                </div>
+
+                <div class="tweet_footer">
+                    <button type="submit" class="twittea">twittear</button>
+
+                </div>
+
+
+
+
+            </form>
+
+
+
+            <div class="tweet_feeds">
+                <span class="tweets"></span>
+            </div>
+        </main>
+
+
+        <div class="aside_trends">
+
+            <div class="searchbox">
+                <form>
+
+                    <div class="searchbox_input">
+                        <input type="text" placeholder="Busca en twitter">
+                        <div class="searchbox_icon">
+                            <span class="fa fa-search"></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="basura">
+                <span class="amount"></span>
+                <button class="reset fa fa-trash"></button>
+            </div>
+        </div>
+
+        <div class="modal new_tweet"></div>
+
+        <script src="./app/main.js"></script>
+</body>
+
+</html>
